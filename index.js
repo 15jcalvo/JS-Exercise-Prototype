@@ -114,14 +114,13 @@ Baby.prototype.play = function(){
   return "PLaying with " + this.favoriteToy;
 }
 
-
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. If a function includes the 'this' keyword and is not within the scope of any created object, 'this' refers to the global object
+  2. If a function is within the scope of a created object, 'this' references that object.
+  3. If a function creates a new object, 'this' refers to that object.
+  4. There a certain functions with which you explicitly state which object 'this' refers to.
 */
 
 
